@@ -1,2 +1,3 @@
-# coffeeorders
-For the Big Nerd Ranch book chapter 13 coffee orders API
+Jose Alvarado
+
+CPSC 349-02 1:00-3:45pm
