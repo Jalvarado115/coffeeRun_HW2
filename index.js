@@ -101,12 +101,6 @@ app.delete('/coffeeorders/coffee/:coffee', (req, res) => {
 });
 
 
-
-
-
-
-
-
 // flavor routes.
 app.get('/coffeeorders/flavor/:flavor', (req, res) => {
     const flavor = req.params.flavor;
@@ -129,9 +123,6 @@ app.delete('/coffeeorders/flavor/:flavor', (req, res) => {
     }
     else res.sendStatus(404);
 });
-
-
-
 
 
 // strength routes.
@@ -158,13 +149,6 @@ app.delete('/coffeeorders/strength/:strength', (req, res) => {
 });
 
 
-
-
-
-
-
-
-
 // size routes.
 app.get('/coffeeorders/size/:size', (req, res) => {
     const size = req.params.size;
@@ -187,10 +171,5 @@ app.delete('/coffeeorders/size/:size', (req, res) => {
     }
     else res.sendStatus(404);
 });
-
-
-
-
-
 
 app.listen(3000);
